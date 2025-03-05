@@ -1,0 +1,24 @@
+WHY ADVANCED JAVA(J2EE):-
+-----------------------
+-->To Develop Web Enabled Applications(Online Projects).
+-->Advanced Java is Server-side Programming.
+-->It is Most Popular Programming language for Client-server Web Applications.
+
+PREREQUISITIES:-
+----------------
+-->JDK INSTALLATION
+-->ECPLISE ENTERPROSE EDITION FOR WEB DEVELOPERS
+-->TOMCAT SERVER
+-->JAVA API
+-->SERVLET API
+
+WHAT IS WEBSITE..?
+-------------------
+-->A Collection of Web Pages that mostly belong to a single Organization is called as Website.
+
+WHAT is WEBPAGE..?
+------------------
+-->It is a Unit of Information.
+
+
+
