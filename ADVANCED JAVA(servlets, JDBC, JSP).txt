@@ -18,7 +18,10 @@ WHAT IS WEBSITE..?
 
 WHAT is WEBPAGE..?
 ------------------
--->It is a Unit of Information.
+-->A fundamental unit of Information that can be sent from the website to the End user is Nothing but a Web page.
+
+
+
 
 
 
