@@ -20,7 +20,15 @@ WHAT is WEBPAGE..?
 ------------------
 -->A fundamental unit of Information that can be sent from the website to the End user is Nothing but a Web page.
 
+What is Web Server..?
+----------------------
+-->A Web Server is a Server Software that provides "Web Resources" to "Web Clients".
 
+what are the Limitations of Web Server..?
+------------------------------------------
+-->It can't Communicate with the data base. -->Who..? ->JDBC
+-->It can't Process the data. --> Who..? --> Servlets
+-->It can't Produce the Response Page. -->who..? -->JSP
 
 
 
