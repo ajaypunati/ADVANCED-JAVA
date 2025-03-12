@@ -15,10 +15,12 @@ PREREQUISITIES:-
 WHAT IS WEBSITE..?
 -------------------
 -->A Collection of Web Pages that mostly belong to a single Organization is called as Website.
+EX:https://www.facebook.com/
 
-WHAT is WEBPAGE..?
+WHAT IS WEBPAGE..?
 ------------------
 -->A fundamental unit of Information that can be sent from the website to the End user is Nothing but a Web page.
+-->A webpage is transported from the web server to the browser using http.
 
 What is Web Server..?
 ----------------------
@@ -29,6 +31,47 @@ what are the Limitations of Web Server..?
 -->It can't Communicate with the data base. -->Who..? ->JDBC
 -->It can't Process the data. --> Who..? --> Servlets
 -->It can't Produce the Response Page. -->who..? -->JSP
+
+what is API..?
+---------------
+-->Collection of "Classes" and "Interfaces" together inside a package is called as API.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Servlets API:-
+===============
+why we are going for Servlets...?
+----------------------------------
+-->There are some Limitations on Server, So We are going to create a server side programming to overcome server challanges.
+
+-->Servlets is a Web Technology and it  is an API.
+-->Servlet is an Interface.
+
+what are Servlets..?
+--------------------
+-->Servlets is a Java Based Web Technology from Sun MicroSystems.
+-->It is an API.
+-->Servlets is a Specification for Web Container Manufacturers.
+-->It is J2EE Technology.
+
+What is the Purpose of Servlets..?
+-----------------------------------
+-->Web enabled enterprise Java Application Development is the Main Purpose of servlet Technology.
+
+
+what is Servelt..?
+--------------------
+-->A Servlet is a Web server side Programming piece of Code that enhances the functionality of the Web server.
+-->It is a dynamic Web resource.
+-->it is a web component.
+
+What is the Content of a Servlet..?
+-----------------------------------
+-->A servlet = Java Code + HTMl Code
+
+
+what is a Web Container..?
+--------------------------
+-->A web Container is a server software written in java according to Servlets and JSPs.
 
 
 
