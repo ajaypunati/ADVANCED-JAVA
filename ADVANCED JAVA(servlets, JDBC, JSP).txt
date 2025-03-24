@@ -74,7 +74,16 @@ what is a Web Container..?
 --------------------------
 -->A web Container is a server software written in java according to Servlets and JSPs.
 
+Servlet Life Cycle:-
+--------------------
+-->We have 4 phases in servlet life cycle they are:
+      1)Instantiation
+      2)Initialization
+      3)Service
+      4)Destroy
 
+1)Instantiation:- Creating an Object of servlet is the concept of Instantiation which is created by the servlet Container.
+2)Initialization:- 
 
 
 
