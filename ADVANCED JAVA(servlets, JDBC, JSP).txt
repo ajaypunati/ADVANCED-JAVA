@@ -64,6 +64,8 @@ what is Servelt..?
 -->Servlet is an Interface.
 -->It is a dynamic Web resource.
 -->it is a web component.
+-->GenericServlet is a implemented abstract class of servlet interface which is having an abstract method "Service()".
+-->HttpServlet is a child class of GenericServlet.
 
 What is the Content of a Servlet..?
 -----------------------------------
@@ -84,6 +86,8 @@ Servlet Life Cycle:-
 
 1)Instantiation:- Creating an Object of servlet is the concept of Instantiation which is created by the servlet Container.
 2)Initialization:- 
+
+
 
 
 
