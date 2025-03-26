@@ -84,9 +84,15 @@ Servlet Life Cycle:-
       2)Initialization
       3)Service
       4)Destroy
+-->Life cycle methods are: init(), service(), destroy()
+-->Whenever something happens in a life of servlet, Servelt Engine will call the above methods internally.
 
-1)Instantiation:- Creating an Object of servlet is the concept of Instantiation which is created by the servlet Container.
-2)Initialization:- 
+1)Instantiation :- Creating an Object of servlet is the concept of Instantiation which is created by the servlet Container.
+2)Initialization :- SE(Servlet Engine) creates a ServletConfig Object --> SE creates "init(ServletConfig obj)".
+3)Service :- SE creates a ServletResponse and ServletRequest Objects --> SE calls a "Service(ServletResponse response, ServletRequest request)".
+4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
+
+
 
 
 
