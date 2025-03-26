@@ -64,7 +64,7 @@ what is Servelt..?
 -->Servlet is an Interface.
 -->It is a dynamic Web resource.
 -->It is a web component.
--->Servlet itself is an Thread.
+-->Servlet itself is a Thread.
 -->GenericServlet is a implemented abstract class of servlet interface which is having an abstract method "Service()".
 -->HttpServlet is a child class of GenericServlet.
 
