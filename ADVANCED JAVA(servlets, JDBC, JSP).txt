@@ -93,7 +93,7 @@ Servlet Life Cycle:-
 4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
 
 
-"Web.xml" file is used fro configurations which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
+"Web.xml" file is used for configuration purpose which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
 
 
 
