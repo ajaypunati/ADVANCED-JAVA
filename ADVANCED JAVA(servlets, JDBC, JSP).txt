@@ -89,12 +89,24 @@ Servlet Life Cycle:-
 -->Whenever something happens in a life of servlet, Servelt Engine will call the above methods internally.
 
 1)Instantiation :- Creating an Object of user defined servlet class is the concept of Instantiation which is created by the servlet Container.
-2)Initialization :- SE(Servlet Engine) creates a ServletConfig Object --> SE creates "init(ServletConfig obj)".
+
+2)Initialization :- SE(Servlet Engine) creates a ServletConfig Object to store context information and Initial configuration information.
+ --> SE calls "init(ServletConfig obj)" by supplying servlet config object reference as Argument.(init method is called only once in the life time of a servlet.)
+
 3)Service :- SE creates a ServletResponse and ServletRequest Objects --> SE calls a "Service(ServletResponse response, ServletRequest request)".
+ -->"request Object" captures the user input and the "response Object" produce display page to the client.
+  
 4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
 
-
 "Web.xml" file is used for configuration purpose which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JDBC(Java Data Base Connectivity):-
+===================================
+
+what is not JDBC..?
+--------------------
+-->
 
 
 
