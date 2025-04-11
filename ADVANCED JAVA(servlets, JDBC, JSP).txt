@@ -106,7 +106,12 @@ JDBC(Java Data Base Connectivity):-
 
 what is not JDBC..?
 --------------------
--->
+-->It is not a programming language like java.
+-->It is not a software product to be installed into a computer system. 
+-->It is not an Abbreviation for JavaDataBaseConncectivity.
+
+what is JDBC..?
+----------------
 
 
 
