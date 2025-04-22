@@ -112,7 +112,15 @@ what is not JDBC..?
 
 what is JDBC..?
 ----------------
+-->JDBC is a JavaBased Data Access Technology from sun micro systems.
+-->As a Part of JDBC, the sun micro system released two documnets:
+   1)API
+   2)Specification
+-->JDBC API is for java Developers.
+-->JDBC Specification is for JDBC Driver Manufacturers.
 
+what is the purpose of JDBC..?
+--------------------------------
 
 
 
