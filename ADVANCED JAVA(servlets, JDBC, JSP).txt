@@ -121,7 +121,14 @@ what is JDBC..?
 
 what is the purpose of JDBC..?
 --------------------------------
+-->To Enable any kind of java programs to perform CRUD Operations with any DBMS in a standard Manner.
+    C = Creation of table
+    R = Retrieval
+    U = Updating
+    D = Deletion
 
+
+   
 
 
 
