@@ -127,8 +127,9 @@ what is the purpose of JDBC..?
     U = Updating
     D = Deletion
 
+EXPLAIN ABOUT JDBC ARCHITECTURE:-
+----------------------------------
 
-   
 
 
 
