@@ -129,6 +129,7 @@ what is the purpose of JDBC..?
 
 EXPLAIN ABOUT JDBC ARCHITECTURE:-
 ----------------------------------
+-->JDBC Architecture is a Client Server Architecture.
 
 
 
