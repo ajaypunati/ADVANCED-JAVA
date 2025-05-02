@@ -130,6 +130,14 @@ what is the purpose of JDBC..?
 EXPLAIN ABOUT JDBC ARCHITECTURE:-
 ----------------------------------
 -->JDBC Architecture is a Client Server Architecture.
+-->There are 5 elements in this Architecture, they are:-
+   1)JDBC Client
+   2)JDBC API
+   3)Driver Manager
+   4)JDBC Driver
+   5)Database Server
+
+
 
 
 
