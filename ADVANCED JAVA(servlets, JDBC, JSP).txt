@@ -137,7 +137,9 @@ EXPLAIN ABOUT JDBC ARCHITECTURE:-
    4)JDBC Driver
    5)Database Server
 
-
+What is JDBC Client..?
+------------------------
+-->
 
 
 
