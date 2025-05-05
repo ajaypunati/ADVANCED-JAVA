@@ -131,15 +131,29 @@ EXPLAIN ABOUT JDBC ARCHITECTURE:-
 ----------------------------------
 -->JDBC Architecture is a Client Server Architecture.
 -->There are 5 elements in this Architecture, they are:-
-   1)JDBC Client
-   2)JDBC API
-   3)Driver Manager
-   4)JDBC Driver
+   1)JDBC Client -->Servlet 
+   2)JDBC API  --> Collection of Interfaces and classes of Java.SQl Package.
+   3)Driver Manager --> class that Provides Connection for JDBC Clients.
+   4)JDBC Driver -->class -->MySQL Driver
    5)Database Server
 
 What is JDBC Client..?
 ------------------------
--->
+-->Any Java Program that Communicates with a Database Server Performing CRUD Operations by using JDBC as a Data Access Technology is Known as JDBC Client.
+-->Example: Servlet Programming.
+
+What is JDBC API..?
+---------------------
+-->A Collection of Interfaces and Classes of "Java.Sql" package using which JDBC Clients Perfroms CRUD Operations with DBMS is nothing but JDBC API.
+
+Explain about Driver Manager...?
+--------------------------------
+-->Driver Manager is a Connection Provider to the JDBC Clients.
+-->It is not a Connection Creator.
+-->Driver Manager has no role in CRUD Operations.
+
+Explain About JDBC Driver...?
+-------------------------------
 
 
 
