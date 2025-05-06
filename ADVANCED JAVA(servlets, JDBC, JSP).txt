@@ -35,7 +35,7 @@ what are the Limitations of Web Server..?
 what is API..?
 ---------------
 -->Collection of "Classes" and "Interfaces" together inside a package is called as API.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================================================================================================================================================================
 
 Servlets API:-
 ===============
@@ -99,7 +99,7 @@ Servlet Life Cycle:-
 4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
 
 "Web.xml" file is used for configuration purpose which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================================================================================================================================================================
 
 JDBC(Java Data Base Connectivity):-
 ===================================
@@ -154,8 +154,44 @@ Explain about Driver Manager...?
 
 Explain About JDBC Driver...?
 -------------------------------
--->
+-->JDBC Driver is a Software Component that enables Java Applications to interact with the database.
+-->There are 4 types of Drivers they are:-
+   1)JDBC-ODBC Bridge Driver
+   2)Native API Driver(Partially Java Driver)
+   3)Network Protocol Driver(Fully Java Driver)
+   4)Thin Driver(Fully Java Driver)
 
+1)JDBC-ODBC Bridge Driver:-
+ ---------------------------
+ -->The JDBC-ODBC Bridge Driver uses ODBC Driver to Connect to the Databse.
+ -->The JDBC-ODBC Bridge Driver converts JDBC Method calls in to ODBC Function Calls.
+
+2)Native API Driver(Partially java driver):-
+---------------------------------------------
+--->The Native API Driver uses Client side libraries of the database.
+--->The Native API Driver converts JDBC Methods calls into Native Calls of the Database API. It is not fully Written in Java.
+
+3)Network Protocol Driver(Fully Java Driver):-
+----------------------------------------------
+-->The Network Protocol Driver Converts JDBC Methods calls directly or indirectly in to vendor-specific Database Protocol.
+-->It is fully Written in java.
+
+4)Thin Driver(Fully Java Driver):-
+----------------------------------
+ -->The Thin Driver Converts JDBC Method calls Directly in to Vendor-specific Database Protocol. It is fully Written in java.
+
+
+Stepd for DAO:-
+---------------
+1)Loading the Driver
+  (Class.forName("com.mysql.cj.jdbc.Driver"); -->Class is from Java.lang , forName is a Static Method from Class
+            |
+            |
+2)Connection Establishment
+  (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/batch51" ,"root","root");
+            |
+            |
+3)
 
 
 
