@@ -205,6 +205,10 @@ REQUESTDISPATCHER IN SERVLET:-
 --->RequestDispatcher Interface provides two important methods they are:
     1)"void forward(ServletRequest request, ServletResponse response)"  -->forward a request from a servlet to another resource on the server.
     2)"void include(ServletRequest request, ServletResponse response)"  -->include the content of a resource in the response.)
-
+How to get RequestDispatecher Object:-
+   RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+   rd.forward(request,resource);
+   rd.include(request, resource);
+==================================================================================================================================================================
 
 
