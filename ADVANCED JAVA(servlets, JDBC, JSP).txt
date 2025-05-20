@@ -192,7 +192,8 @@ Stepd for DAO:-
             |
             |
 3)Statement Preparation
-  (PreparedStatement ps = con.PrepareStatement("--------------------");
+  (PreparedStatement ps = con.PrepareStatement("--------------------"); //To Avoid SqlInjection
+  (statement st = con.executeUpdate());
             |
             |
 4)ExecuteQuery or ExecuteUpdate
