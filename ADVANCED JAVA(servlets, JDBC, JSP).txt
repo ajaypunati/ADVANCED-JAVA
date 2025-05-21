@@ -217,6 +217,7 @@ What is JSP..?
 --------------
 -->JSP stands for Java Server pages.
 -->JSP is a Java based web Technology used to implement Java based Dynamic Website.
+-->JSP can contain both java code and HTML code.
 
 what are the similarities between servlets and JSPs..?-
 -----------------------------------------------------
