@@ -218,11 +218,20 @@ What is JSP..?
 -->JSP stands for Java Server pages.
 -->JSP is a Java based web Technology used to implement Java based Dynamic Website.
 
-what are the similarities between servlets and JSPs:-
+what are the similarities between servlets and JSPs..?-
 -----------------------------------------------------
 -->Both are user Defined.
 -->Both are Dynamic Web Resources.
 -->Both are Web Components
 -->Both contribute to making the Website interactive.
 
+what is JSP Container or Engine..?
+-----------------------------------
+-->JSP Container or Engine is a specialized software Written in java According to JSP Specification.
+-->As a Part of JSP Technology, the sun microsystem released to two documents they are:
+   1)JSP API
+   2)JSP Specification.
+
+Explain About JSP Life Cycle:-
+---------------------------------
 
