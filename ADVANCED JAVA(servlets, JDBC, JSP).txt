@@ -235,4 +235,40 @@ what is JSP Container or Engine..?
 
 Explain About JSP Life Cycle:-
 ---------------------------------
+-->we have six phases in JSP life cycle they are:
+    1)Translation Phase
+    2)Compilation Phase
+    3)Instantiation Phase
+    4)Initialization Phase
+    5)Servicing Phase
+    6)Destroy Phase
+-->Life Cycle Methods are:
+     ->jspInit(), jspService(), jspDestroy()
+
+  1)Translation Phase:-
+  ----------------------
+  -->JSP Engine or Container converts jsp in to servlet during Translation Phase , and this servlet is called as Page Implementation class.
+
+  2)Compilation Phase:-
+  ----------------------
+   -->JSP Engine Compiling the page implementation class to the ".class" file is nothing but the Compilation Phase of JSP.
+
+ 3)Instantiation Phase:-
+ ------------------------
+  -->Container Creating an Instance of Page Implementation class is nothing but the Instantiation Phase.
+
+ 4)Initialization Phase:-
+ -------------------------
+  -->Container Calling of jspInit() method is Nothing but Initialization Phase.
+  -->Instantiation and Initialization phases will be called only once in the life time of JSP.
+
+ 5)Servicing Phase:-
+ --------------------
+  -->Container Calling of jspService() method is nothing but Initialization Phase.
+
+ 6)Destroy Phase:-
+  ----------------
+  -->When JSP is Unloaded , container marks the page implementation class Object for Garbage Collection and calls jspDestroy() method.
+==================================================================================================================================================================
+
 
