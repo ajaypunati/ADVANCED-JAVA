@@ -215,4 +215,14 @@ JSP Introduction:-
 ==================
 What is JSP..?
 --------------
--->
+-->JSP stands for Java Server pages.
+-->JSP is a Java based web Technology used to implement Java based Dynamic Website.
+
+what are the similarities between servlets and JSPs:-
+-----------------------------------------------------
+-->Both are user Defined.
+-->Both are Dynamic Web Resources.
+-->Both are Web Components
+-->Both contribute to making the Website interactive.
+
+
