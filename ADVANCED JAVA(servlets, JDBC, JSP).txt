@@ -269,6 +269,11 @@ Explain About JSP Life Cycle:-
  6)Destroy Phase:-
   ----------------
   -->When JSP is Unloaded , container marks the page implementation class Object for Garbage Collection and calls jspDestroy() method.
+
+
+Explain JSP Elements:-
+=======================
+
 ==================================================================================================================================================================
 
 
