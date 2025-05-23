@@ -273,6 +273,42 @@ Explain About JSP Life Cycle:-
 
 Explain JSP Elements:-
 =======================
+-->There are three types of JSP Elements.
+   1)Scripting Elements.
+   2)Directives
+   3)Actions(Tags)
+
+1)JSP Scripting Elements:-
+----------------------
+-->Scripting elements are those JSP elements using Which "Java code" is directly embedded into JSP.
+-->There are 3 Scripting elements:
+   1)Declaration
+   2)Expression
+   3)Scriptlet
+
+   1)Declaration:-
+   --------------
+    -->It starts with "<%!" and ends with "%>".
+    -->class scoped variables and methods are declared using JSP Declaration in a JSP.
+    Example:-
+        <%! int a; %>
+        <%! void m1() %>
+
+   2)Expression:-
+   ----------------
+   -->It starts with "<%=" and ends with "%>".
+   -->Only one java expression is allowed in a JSP Expression.
+   Example:-
+      <%= a+b %>
+
+   3)Scriptlet:-
+   --------------
+   -->JSP Scriptlet is meant for embedding java code directly into the JSP.
+   -->It starts with "<%" and ends with "%>".
+
+2)JSP Directives:-
+-------------------
+
 
 ==================================================================================================================================================================
 
