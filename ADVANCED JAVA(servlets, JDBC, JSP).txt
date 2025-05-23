@@ -103,7 +103,6 @@ Servlet Life Cycle:-
 
 JDBC(Java Data Base Connectivity):-
 ===================================
-
 what is not JDBC..?
 --------------------
 -->It is not a programming language like java.
@@ -194,6 +193,7 @@ Stepd for DAO:-
 3)Statement Preparation
   (PreparedStatement ps = con.PrepareStatement("--------------------"); //To Avoid SqlInjection
   (statement st = con.executeUpdate());
+  
             |
             |
 4)ExecuteQuery or ExecuteUpdate
