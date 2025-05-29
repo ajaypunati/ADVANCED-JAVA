@@ -308,7 +308,32 @@ Explain JSP Elements:-
 
 2)JSP Directives:-
 -------------------
+-->Translation Time Instrcution to the JSP Engine is nothing but a JSP Directive.
+-->There are 3 types of JSP Directives, they are:-
+   1)Include Directive
+   2)Page Directive
+   3)taglib Directive
 
+1)Include Directive:-
+----------------------
+-->Include Directive is used to inlcude other page content into the current page Inline.
+-->Syntax:-
+    <% @include file="include file name" %>
+
+2)Page Directive:-
+------------------
+ -->Page Directive specifies the structure of the page implementation class to the JSP Container.
+ -->page Directive Attributes are:
+    1)import
+    2)errorPage
+    3)isErrorPage
+    4)extends
+    5)isELIgnored
+    6)Language
+    7)contentType
+    8)session
+    9)info
+    10)pageEncoding
 
 ==================================================================================================================================================================
 
