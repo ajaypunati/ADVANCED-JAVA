@@ -193,7 +193,6 @@ Stepd for DAO:-
 3)Statement Preparation
   (PreparedStatement ps = con.PrepareStatement("--------------------"); //To Avoid SqlInjection
   (statement st = con.executeUpdate());
-  
             |
             |
 4)ExecuteQuery or ExecuteUpdate
@@ -324,7 +323,7 @@ Explain JSP Elements:-
    ------------------
     -->Page Directive specifies the structure of the page implementation class to the JSP Container.
     -->page Directive Attributes are:
-          1)import
+          1)import -->used to import java packages in to JSP.(<% @page import="java.util.*"%>)
           2)errorPage
           3)isErrorPage
           4)extends
@@ -335,6 +334,10 @@ Explain JSP Elements:-
           9)info
           10)pageEncoding
 
-==================================================================================================================================================================
+   3)taglib Directive:-
+   ---------------------
+   -->JSP custom tags must be explicitly imported in to a JSP in order to use them. JSP taglib Directive is used for that purpose.
+   -->taglib directive has the following syntax:-
+        <% @tagib prefix="alias name of the custom tag" uri="actual name of the custom tag" %>
 
 
