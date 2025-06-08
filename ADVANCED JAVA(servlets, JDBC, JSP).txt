@@ -58,8 +58,8 @@ What is the Purpose of Servlets..?
 -->Web enabled enterprise Java Application Development is the Main Purpose of servlet Technology.
 
 
-what is Servelt..?
---------------------
+what is Servelt..?(Controller)
+------------------------------
 -->A Servlet is a Web server side Programming piece of Code that enhances the functionality of the Web server.
 -->Servlet is an Interface.
 -->It is a dynamic Web resource.
