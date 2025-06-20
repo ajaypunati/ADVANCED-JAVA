@@ -340,4 +340,8 @@ Explain JSP Elements:-
    -->taglib directive has the following syntax:-
         <% @tagib prefix="alias name of the custom tag" uri="actual name of the custom tag" %>
 
+3)JSP Action tags:-
+---------------------
+
+
 
