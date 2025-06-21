@@ -263,7 +263,7 @@ Explain About JSP Life Cycle:-
 
  5)Servicing Phase:-
  --------------------
-  -->Container Calling of jspService() method is nothing but Initialization Phase.
+  -->Container Calling of jspService() method is nothing but Servicing Phase of a JSP.
 
  6)Destroy Phase:-
   ----------------
