@@ -342,6 +342,22 @@ Explain JSP Elements:-
 
 3)JSP Action tags:-
 ---------------------
+-->Request Processing Time(runtime) instruction to the JSP Engine is nothing but a JSP Action tags.
+-->There are Two types of Action tags they are:
+   1)Standard Tags
+   2)Custom Tags
 
+ 1)Standard Tags:-
+ -----------------
+ -->Pre-defined tags shipped with the Container and Whose Meaning is already known to the JSP engine are standard tags.
+ -->Every Standard tag has following syntax:
+    <JSP:tagname attribute='value' attribute='value'></JSP:tagname>
+ -->Following are some of the Standard tags:
+     ->include
+     ->forward
+     ->useBean
+     ->param
+     ->setProperty
+     ->getProperty
 
 
