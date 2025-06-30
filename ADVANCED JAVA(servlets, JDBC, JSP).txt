@@ -57,7 +57,6 @@ What is the Purpose of Servlets..?
 -----------------------------------
 -->Web enabled enterprise Java Application Development is the Main Purpose of servlet Technology.
 
-
 what is Servelt..?(Controller)
 ------------------------------
 -->A Servlet is a Web server side Programming piece of Code that enhances the functionality of the Web server.
@@ -72,7 +71,6 @@ what is Servelt..?(Controller)
 What is the Content of a Servlet..?
 -----------------------------------
 -->A servlet = Java Code + HTMl Code
-
 
 what is a Web Container..?
 --------------------------
@@ -217,6 +215,7 @@ What is JSP..?
 -->JSP stands for Java Server pages.
 -->JSP is a Java based web Technology used to implement Java based Dynamic Website.
 -->JSP can contain both java code and HTML code.
+
 
 what are the similarities between servlets and JSPs..?-
 -----------------------------------------------------
