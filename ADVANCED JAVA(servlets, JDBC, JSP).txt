@@ -361,6 +361,20 @@ Explain JSP Elements:-
 
 JSP IMPLICIT OBJECTS:- Syntax and Examples
 -------------------------------------------
+-->Web Containers creates these Implicit Objects when they translate JSP pages to Servlets.
+-->They are avaialable to All JSP Pages.
+-->They are Written in Scriptlet tags except Declaration.
+-->They get called Directly and need not to be declared.
+-->There are 9 implicit jsp Objects they are:
+   1)out
+   2)request
+   3)response
+   4)session
+   5)page
+   6)pageContext
+   7)config
+   8)Exception
+   9)application
 
 
 ==================================================================================================================================================================
