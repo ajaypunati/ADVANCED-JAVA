@@ -392,7 +392,10 @@ JSP IMPLICIT OBJECTS:- Syntax and Examples
 
 3)"response" implicit Object:-
 -------------------------------
+-->It is an In-built Object from javax.servlet.http.HttpServletResponse;
+-->setContentType(String text), sendRedirect(String address), addHeader(String name, string value) setHeader(String name String value).
 
+4)
 
 ==================================================================================================================================================================
 
