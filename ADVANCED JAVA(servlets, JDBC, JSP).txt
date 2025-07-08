@@ -359,6 +359,10 @@ Explain JSP Elements:-
      ->setProperty
      ->getProperty
 
+ 2)Custom tags:-
+ ---------------
+  -->JSP Custom tags must be explicitly imported in to a jsp inorder to use them.
+
 JSP IMPLICIT OBJECTS:- Syntax and Examples
 -------------------------------------------
 -->Web Containers creates these Implicit Objects when they translate JSP pages to Servlets.
@@ -375,5 +379,20 @@ JSP IMPLICIT OBJECTS:- Syntax and Examples
    7)config
    8)Exception
    9)application
+
+1)"out" implicit Object:-
+--------------------------
+-->It is an in-built object of java.servlet.jsp.jspWriter;
+-->print(),println(),flush(),clear(),buffer(),isAutoFlush(),getBufferSie(),getRemaining().
+
+2)"request" implicit object:-
+------------------------------
+-->It is an In-built Object of javax.servlet.http.HttpServlet;
+-->getParameter(), getParamaterNames(), getParameterValues(String name), getAttribute(String name), getAttributeNames(),setAttribute(String , Object).
+
+3)"response" implicit Object:-
+-------------------------------
+
+
 ==================================================================================================================================================================
 
