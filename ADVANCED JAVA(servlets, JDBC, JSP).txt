@@ -373,29 +373,59 @@ JSP IMPLICIT OBJECTS:- Syntax and Examples
    1)out
    2)request
    3)response
-   4)session
-   5)page
-   6)pageContext
-   7)config
-   8)Exception
-   9)application
+   4)config
+   5)session
+   6)application
+   7)page
+   8)pageContext
+   9)Exception
+  
 
 1)"out" implicit Object:-
 --------------------------
--->It is an in-built object of java.servlet.jsp.jspWriter;
--->print(),println(),flush(),clear(),buffer(),isAutoFlush(),getBufferSie(),getRemaining().
+-->It is an in-built object of java.servlet.jsp.JspWriter;
+-->It is used to add data into buffer which will be sent to the client as output.
+-->print(),println(),flush(),clear(),buffer(),isAutoFlush(),getBufferSize(),getRemaining().
 
 2)"request" implicit object:-
 ------------------------------
 -->It is an In-built Object of javax.servlet.http.HttpServlet;
+-->It passes to service Method as parameter to capture user input.
 -->getParameter(), getParamaterNames(), getParameterValues(String name), getAttribute(String name), getAttributeNames(),setAttribute(String , Object).
 
 3)"response" implicit Object:-
 -------------------------------
 -->It is an In-built Object from javax.servlet.http.HttpServletResponse;
--->setContentType(String text), sendRedirect(String address), addHeader(String name, string value) setHeader(String name String value).
+-->It is also passes to service method as parameter to produce display page to client.
+-->setContentType(String text), getWriter(),sendRedirect(String address), addHeader(String name, string value) setHeader(String name, String value).
 
-4)
+4)"config" implicit Object:-
+-----------------------------
+-->It is an In-built Object of javax.servlet.ServletConfig;
+-->It is used to get the information regarding configuration of JSP pages.
+-->getInitParameter(String name), getInitParameterNames(), getServletName().
 
+5)"session" implicit Object:-
+-----------------------------
+-->It is an In-built Object of javax.servlet.http.HttpSession;
+-->It is used to get the session information as it tracks sessions  between the clients.
+-->setAttribute(String , Object), getAttribute(String name);
+
+6)"Application" implicit Object:-
+---------------------------------
+-->It is an In-built Object of javax.servlet.ServletContext.
+-->This Object is Created by the Web Container only when an Application is deployed.
+-->getAttribute(String AttributeName), setAttribute(String AttributeName, Object obj), removeAttribute(String attributName), getRealPath(String value).
+
+7)"page" implicit Object:-
+-----------------------------
+-->It is an In-built Object from java.lang.Object class.
+-->It is used to provide reference to the servlet class generated.
+Ex:-
+    <% this.log("message");%>
+
+8)"pageContext" implicit Object:-
+----------------------------------
+-->It is an In-built Object from javax.servlet.jsp.PageContext.
 ==================================================================================================================================================================
 
