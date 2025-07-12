@@ -427,5 +427,9 @@ Ex:-
 8)"pageContext" implicit Object:-
 ----------------------------------
 -->It is an In-built Object from javax.servlet.jsp.PageContext.
+
+Real Time Application:-
+-----------------------
+Student Course Registration Portal
 ==================================================================================================================================================================
 
