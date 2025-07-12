@@ -97,6 +97,12 @@ Servlet Life Cycle:-
 4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
 
 "Web.xml" file is used for configuration purpose which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
+
+Difference between ServletConfg and ServletContext:-
+-----------------------------------------------------
+-->ServletConfig and ServletContext both are Objects created at the time of servlet Initialization and used to provide some initial configuration
+ information to the Servlet, but difference lies in the fact that information shared by ServletConfig is for a Specific servlet, while information
+ shared by ServletContext is available for all Servlets in the Web Application.
 ==================================================================================================================================================================
 
 JDBC(Java Data Base Connectivity):-
