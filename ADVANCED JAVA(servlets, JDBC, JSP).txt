@@ -41,14 +41,14 @@ Servlets API:-
 ===============
 why we are going for Servlets...?
 ----------------------------------
--->There are some Limitations on Server, So We are going to create a server side programming to overcome server challanges.
+-->There are some Limitations on Server, So We are going to create a server side programming to overcome server challenges.
 
 -->Servlets is a Web Technology and it  is an API.
 -->Servlet is an Interface.
 
 what are Servlets..?
 --------------------
--->Servlets is a Java Based Web Technology from Sun MicroSystems.
+-->Servlets is a Java Based Web Technology from Sun Microsystems.
 -->It is an API.
 -->Servlets is a Specification for Web Container Manufacturers.
 -->It is J2EE Technology.
@@ -57,7 +57,7 @@ What is the Purpose of Servlets..?
 -----------------------------------
 -->Web enabled enterprise Java Application Development is the Main Purpose of servlet Technology.
 
-what is Servelt..?(Controller)
+what is Servlet..?(Controller)
 ------------------------------
 -->A Servlet is a Web server side Programming piece of Code that enhances the functionality of the Web server.
 -->Servlet is an Interface.
@@ -65,12 +65,12 @@ what is Servelt..?(Controller)
 -->It is a web component.
 -->Servlet itself is an Thread.
 -->A Servlet in a web Application is a singleton.
--->GenericServlet is a implemented abstract class of servlet interface which is having an abstract method "Service()".
--->HttpServlet is a child class of GenericServlet.
+-->Generic Servlet is a implemented abstract class of servlet interface which is having an abstract method "Service()".
+-->HTTP Servlet is a child class of Generic Servlet.
 
 What is the Content of a Servlet..?
 -----------------------------------
--->A servlet = Java Code + HTMl Code
+-->A servlet = Java Code + HTML Code
 
 what is a Web Container..?
 --------------------------
@@ -84,7 +84,7 @@ Servlet Life Cycle:-
       3)Service
       4)Destroy
 -->Life cycle methods are: init(), service(), destroy()
--->Whenever something happens in a life of servlet, Servelt Engine will call the above methods internally.
+-->Whenever something happens in a life of servlet, Servlet Engine will call the above methods internally.
 
 1)Instantiation :- Creating an Object of user defined servlet class is the concept of Instantiation which is created by the servlet Container.
 
@@ -96,7 +96,7 @@ Servlet Life Cycle:-
   
 4)Destroy :-  Is the Servlet is Unloaded then SE calls the "Destroy()" on the Servlet Instance.
 
-"Web.xml" file is used for configuration purpose which consits of "welcomefile-list" ,"servlet" and "servlet mapping".
+"Web.xml" file is used for configuration purpose which consist of "welcome file-list" ,"servlet" and "servlet mapping".
 
 Difference between ServletConfg and ServletContext:-
 -----------------------------------------------------
@@ -111,12 +111,12 @@ what is not JDBC..?
 --------------------
 -->It is not a programming language like java.
 -->It is not a software product to be installed into a computer system. 
--->It is not an Abbreviation for JavaDataBaseConncectivity.
+-->It is not an Abbreviation for Java Data Base Connectivity.
 
 what is JDBC..?
 ----------------
--->JDBC is a JavaBased Data Access Technology from sun micro systems.
--->As a Part of JDBC, the sun micro system released two documnets:
+-->JDBC is a Java Based Data Access Technology from sun micro systems.
+-->As a Part of JDBC, the sun micro system released two documents:
    1)API
    2)Specification
 -->JDBC API is for java Developers.
@@ -147,7 +147,7 @@ What is JDBC Client..?
 
 What is JDBC API..?
 ---------------------
--->A Collection of Interfaces and Classes of "Java.Sql" package using which JDBC Clients Perfroms CRUD Operations with DBMS is nothing but JDBC API.
+-->A Collection of Interfaces and Classes of "Java.Sql" package using which JDBC Clients Performs CRUD Operations with DBMS is nothing but JDBC API.
 
 Explain about Driver Manager...?
 --------------------------------
@@ -166,7 +166,7 @@ Explain About JDBC Driver...?
 
 1)JDBC-ODBC Bridge Driver:-
  ---------------------------
- -->The JDBC-ODBC Bridge Driver uses ODBC Driver to Connect to the Databse.
+ -->The JDBC-ODBC Bridge Driver uses ODBC Driver to Connect to the Database.
  -->The JDBC-ODBC Bridge Driver converts JDBC Method calls in to ODBC Function Calls.
 
 2)Native API Driver(Partially java driver):-
@@ -184,7 +184,7 @@ Explain About JDBC Driver...?
  -->The Thin Driver Converts JDBC Method calls Directly in to Vendor-specific Database Protocol. It is fully Written in java.
 
 
-Stepd for DAO:-
+Steps for DAO:-
 ---------------
 1)Loading the Driver
   (Class.forName("com.mysql.cj.jdbc.Driver"); -->Class is from Java.lang , forName is a Static Method from Class
@@ -312,7 +312,7 @@ Explain JSP Elements:-
 
 2)JSP Directives:-
 -------------------
--->Translation Time Instrcution to the JSP Engine is nothing but a JSP Directive.
+-->Translation Time Instruction to the JSP Engine is nothing but a JSP Directive.
 -->There are 3 types of JSP Directives, they are:-
    1)Include Directive
    2)Page Directive
@@ -320,7 +320,7 @@ Explain JSP Elements:-
 
   1)Include Directive:-
   ----------------------
-  -->Include Directive is used to inlcude other page content into the current page Inline.
+  -->Include Directive is used to include other page content into the current page Inline.
   -->Syntax:-
           <% @include file="include file name" %>
       
@@ -367,12 +367,12 @@ Explain JSP Elements:-
 
  2)Custom tags:-
  ---------------
-  -->JSP Custom tags must be explicitly imported in to a jsp inorder to use them.
+  -->JSP Custom tags must be explicitly imported in to a jsp in order to use them.
 
 JSP IMPLICIT OBJECTS:- Syntax and Examples
 -------------------------------------------
 -->Web Containers creates these Implicit Objects when they translate JSP pages to Servlets.
--->They are avaialable to All JSP Pages.
+-->They are available to All JSP Pages.
 -->They are Written in Scriptlet tags except Declaration.
 -->They get called Directly and need not to be declared.
 -->There are 9 implicit jsp Objects they are:
@@ -438,4 +438,3 @@ Real Time Application:-
 -----------------------
 Student Course Registration Portal
 ==================================================================================================================================================================
-
