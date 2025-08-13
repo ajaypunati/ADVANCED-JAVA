@@ -89,6 +89,16 @@ Servlet Life Cycle:-
 -->Before Going to Instatiation phase, Servlet class will be loaded in to the Servlet Engine.
 1)Instantiation :- Creating an Object of user defined servlet class is the concept of Instantiation which is created by the servlet Container.
 
+why we need to create userDefined Servlet class..?
+-----------------------------------------------------
+-->In Core Java(J2SE) there is no client -- Server Interaction, whereas in J2EE there is a Client-server Interaction.
+-->The userDefined servlet class will interact with the Server and take the Request.
+    -->Processing the Request.
+    -->Communicating with the data base.
+    -->Produce the response Page.
+    -->Giving Response to the Server.
+-->The Servlet is going to provide capability of Interaction of user defined servlet with the Server.
+
 2)Initialization :- SE(Servlet Engine) creates a ServletConfig Object to store context information and Initial configuration information.
  --> SE calls "init(ServletConfig obj)" by supplying servlet config object reference as Argument.(init method is called only once in the life time of a servlet.)
 
@@ -439,3 +449,4 @@ Real Time Application:-
 -----------------------
 Student Course Registration Portal
 ==================================================================================================================================================================
+
