@@ -448,5 +448,18 @@ Ex:-
 Real Time Application:-
 -----------------------
 Student Course Registration Portal
+
+How to add Project in to github..?
+-----------------------------------
+-->Open powershell
+-->git --version(if not install, do it)
+-->cd "path of workspace"
+-->git init
+-->git add .
+-->git commit -m "Initial commit"
+-->git --config global user.email "email@gmail.com"
+-->git remote add origin "repository url"
+-->git push origin main
 ==================================================================================================================================================================
+
 
