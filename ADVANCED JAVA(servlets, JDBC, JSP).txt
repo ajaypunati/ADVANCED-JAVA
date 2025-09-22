@@ -43,8 +43,10 @@ why we are going for Servlets...?
 ----------------------------------
 -->There are some Limitations on Server, So We are going to create a server side programming to overcome server challenges.
 
--->Servlets is a Web Technology and it  is an API.
--->Servlet is an Interface.
+What are not Servlets..?
+-------------------------
+-->It is not a Programming Language.
+-->It is not a Software to be intstalled in our computers.
 
 what are Servlets..?
 --------------------
@@ -461,6 +463,7 @@ How to add Project in to github..?
 -->git remote add origin "repository url"
 -->git push origin main
 ==================================================================================================================================================================
+
 
 
 
